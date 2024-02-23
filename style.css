@@ -1,0 +1,148 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;  
+}
+
+.hero-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.hero-header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-header-menu {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.hero-copy-container {
+    display: flex;
+    padding: 8px;
+}
+
+.hero-copy-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-copy-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-copy-image {
+    background-color: gray;
+    width: 500px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: white; 
+    padding: 8px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 18px;
+}
+
+.features-title,
+.feature-text {
+    color: black;
+}
+
+.features-title {
+  display: flex;
+  size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  justify-content: center;  
+
+}
+
+.features-items-container {
+    display: flex;
+    gap: 8px;
+}
+
+.feature-image {
+    border: 2px solid #3882F6;
+    padding: 18px;
+    height: 100px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 8px;
+}
+
+.actual-quote {
+    display: flex;
+    color: black;
+    padding: 64px;
+}
+
+.quote-person {
+    color: black;
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: white;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-modal {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.CTA-content {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.CTA-content-title,
+.CTA-content-copy {
+    color: white;
+}
+
+.cta-button {
+    padding: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
